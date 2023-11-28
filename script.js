@@ -6,6 +6,16 @@ for (let i = 1; i <= 100; i++) {
 
     const newElement = createmyElement("div", "grid-box");
     newElement.textContent = i;
+    
+    newElement.addEventListener ("click"),
+        
+    function () {
+            newElement.classList.add("clicked");
+            console.log("hai cliccato l'elemento")
+
+        }
+
+
     gridElement.append(newElement);
 
 }
