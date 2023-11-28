@@ -2,9 +2,10 @@
 
 const gridElement = document.getElementById("gridContainer");
 
-for (let i = 0; i < 100; i++) {
+for (let i = 1; i <= 100; i++) {
 
-    const newElement = createmyElement("div", "grid-box")
+    const newElement = createmyElement("div", "grid-box");
+    newElement.textContent = i;
     gridElement.append(newElement);
 
 }
