@@ -11,7 +11,7 @@ for (let i = 1; i <= 100; i++) {
         
     function () {
             newElement.classList.add("clicked");
-            console.log("hai cliccato l'elemento")
+            console.log("hai cliccato la casella col numero" + newElement.textContent)
 
         }
     );
