@@ -12,6 +12,8 @@
 body  {
     height: 100vh;
     position: relative;
+    background-color: #7FFFD3;
+
 }
 
 header {
@@ -29,7 +31,6 @@ header {
 
 main {
     height: 100vh;
-    background-color: #7FFFD3;
 }
 
 footer {
@@ -43,23 +44,25 @@ footer {
 .header-col {
     display: flex;
     flex-direction: row;
+    text-align: center;
 }
 
 .header-col img {
     width: 30%;
     object-fit: cover;
     padding: 3%;
-    text-align: center;
 }
 
 .header-col h1{
     width: 300px;
+    align-self: center;
 
 }
 
 header button{
     padding: 10px;
     margin: 30px 30px;
+    align-self: center;
 }
 
 .grid {
